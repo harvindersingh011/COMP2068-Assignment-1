@@ -6,20 +6,38 @@ body {
 a {
     color: #00B7FF;
 }
+/*
+    giving css elemnts to h1
+*/
 
 h1 {
-    color: #009;
+    color: chocolate;
     font-size: 1em;
     margin-bottom: .3em;
     text-align: center;
     text-decoration: underline;
 }
 /*
-   file name -css-exemples, author name- no name ,
+    giving font family and other stuff to h3
 */
 
 h3 {
     font-family: "Times New Roman", Times, serif;
     background-color: lightblue;
     color: blue;
+}
+
+/*
+    changing paragrapgh style
+*/
+p {
+    color:forestgreen;
+    font-size: 16px;
+}
+
+h2 {
+    text-align:center;
+    font-size: 15px;
+    color:darkslategrey ;
+
 }

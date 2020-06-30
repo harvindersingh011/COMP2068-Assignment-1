@@ -5,4 +5,20 @@ block content
   h1 This is our #{contactme}
   h2 My email address is harvinder@georgainc.on.ca
   h2 My phone number is +12488526320
+  br
+  <div class="form-header">
+  </div>
+  <form method="post" action="/contact" novalidate>
+  <div class="form-field">
+    <label for="message">Message</label>
+    <textarea class="input" id="message" name="message" rows="2" autofocus></textarea>
+  </div>
+  <div class="form-field">
+    <label for="email">Email</label>
+    <input class="input" id="email" name="email" type="email" value="" />
+  </div>
+  <div class="form-actions">
+    <button class="btn" type="submit">Send</button>
+  </div>
+  </form>
   include partials/footer
